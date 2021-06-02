@@ -4,8 +4,8 @@
   "description": "Backend code for Anastrat implemented by abhishek-mudgal-au13",
   "main": "main.js",
   "scripts": {
-    "test": "babel-watch ./src/main.js",
-    "start": "npm run build && node ./build/main.js",
+    "start": "./src/main.js",
+    "check": "npm run build && node ./build/main.js",
     "build": "npm run clean && npm run babel-build",
     "babel-build": "babel -d ./build ./src -s",
     "clean": "rm -rf ./build && mkdir build"
